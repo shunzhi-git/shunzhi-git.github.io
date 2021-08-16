@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Hexo</title>
-  
+  <icon>http://example.com/icon.png</icon>
   
   <link href="http://example.com/atom.xml" rel="self"/>
   
@@ -23,33 +23,13 @@
     <published>2021-08-14T15:22:16.000Z</published>
     <updated>2021-08-14T16:05:56.750Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="团队管理"><a href="#团队管理" class="headerlink" title="团队管理"></a>团队管理</h3><p>团队管理分为三个层面，技术、制度和文化。大到一个国家，小到个人，最终发展的结果都是这个三个层面的产物。其中技术发展的基础，制度是可持续的发展的必要条件，而文化则决定了最终可以发展到什么程度，能够走多远。</p><p>以技术型公司发展为例，技术是驱动创业的基本条件，有了核心或者创新型的技术，一个公司才可以立足，然后将技术转化成产品，从而获取利润。技术发展是个漫长的过程，其包括技术的积累、创新和传承等。每个环节都要持续不断的更新，从而避免被淘汰出局。技术创新，有一定的风险，既要避免走弯路，也要勇于尝试。</p><p>良好的制度可以促进公司的发展，激发员工的潜力。通俗的讲，制度就是一个小圈子或者是小团体的内部规则秩序，用来约束人员的行为规范，方便驯化和管理。公平公正的制度可以计划个人的创造力，反之则会滋生腐败和各种潜规则。</p><p>最后一个层面就是文化，文化是渗透到骨子里的东西，是潜移默化的一个结果，是一个群体大家都是认可的价值观念。文化的形成有个很慢长的过程，一旦成型，想要再次改变将是一个更漫长的过程。</p>]]></content>
-    
     
       
       
-    <summary type="html">&lt;h3 id=&quot;团队管理&quot;&gt;&lt;a href=&quot;#团队管理&quot; class=&quot;headerlink&quot; title=&quot;团队管理&quot;&gt;&lt;/a&gt;团队管理&lt;/h3&gt;&lt;p&gt;团队管理分为三个层面，技术、制度和文化。大到一个国家，小到个人，最终发展的结果都是这个三个层面的产物。其中技术发展的基础，制</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>算法基础概念</title>
-    <link href="http://example.com/2021/08/08/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/"/>
-    <id>http://example.com/2021/08/08/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/</id>
-    <published>2021-08-08T14:56:25.000Z</published>
-    <updated>2021-08-08T15:04:51.579Z</updated>
-    
-    <content type="html"><![CDATA[<hr><h2 id="算法基本概念"><a href="#算法基本概念" class="headerlink" title="算法基本概念"></a>算法基本概念</h2>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;算法基本概念&quot;&gt;&lt;a href=&quot;#算法基本概念&quot; class=&quot;headerlink&quot; title=&quot;算法基本概念&quot;&gt;&lt;/a&gt;算法基本概念&lt;/h2&gt;</summary>
+        
+        
+    <summary type="html">&lt;h3 id=&quot;团队管理&quot;&gt;&lt;a href=&quot;#团队管理&quot; class=&quot;headerlink&quot;</summary>
+        
       
     
     
@@ -64,13 +44,36 @@
     <published>2021-08-08T14:56:25.000Z</published>
     <updated>2021-08-08T15:04:29.747Z</updated>
     
-    <content type="html"><![CDATA[<hr><h2 id="数据结构基本概念"><a href="#数据结构基本概念" class="headerlink" title="数据结构基本概念"></a>数据结构基本概念</h2><h4 id="数据结构："><a href="#数据结构：" class="headerlink" title="数据结构："></a>数据结构：</h4><p>相互直接存在一种或者多种特定关系的数据组合，其分为逻辑结构和物理结构。</p><h4 id="逻辑结构："><a href="#逻辑结构：" class="headerlink" title="逻辑结构："></a>逻辑结构：</h4><p>数据对象中元素的相互关系，其分为集合结构、线性结构、树形结构和图像结构。</p><h4 id="物理结构"><a href="#物理结构" class="headerlink" title="物理结构"></a>物理结构</h4><p>数据的结构在计算机中的存储形式，其分为顺序存储结构和链式存储结构，其区别是在存储单元中地址是否连续。</p><h4 id="数据类型："><a href="#数据类型：" class="headerlink" title="数据类型："></a>数据类型：</h4><p>是指一组性质相同的值的集合及定义在此集合上的一些操作的总称，其分为原子类型（包括整型、字符型等）和结构类型。</p>]]></content>
-    
     
       
       
+        
+        
     <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;数据结构基本概念&quot;&gt;&lt;a href=&quot;#数据结构基本概念&quot; class=&quot;headerlink&quot; title=&quot;数据结构基本概念&quot;&gt;&lt;/a&gt;数据结构基本概念&lt;/h2&gt;&lt;h4 id=&quot;数据结构：&quot;&gt;&lt;a href=&quot;#数据结构：&quot; class=&quot;heade</summary>
+&lt;h2 id=&quot;数据结构基本概念&quot;&gt;&lt;a href=&quot;#数据结构基本概念&quot; class=&quot;headerlink&quot; title=&quot;数据结构基本概念&quot;&gt;&lt;/a&gt;数据结构基本概念&lt;/h2&gt;&lt;h4 id=&quot;数据结构：&quot;&gt;&lt;a href=&quot;#数据结构：&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>算法基础概念</title>
+    <link href="http://example.com/2021/08/08/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/"/>
+    <id>http://example.com/2021/08/08/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5/</id>
+    <published>2021-08-08T14:56:25.000Z</published>
+    <updated>2021-08-08T15:04:51.579Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;hr&gt;
+&lt;h2 id=&quot;算法基本概念&quot;&gt;&lt;a href=&quot;#算法基本概念&quot; class=&quot;headerlink&quot;</summary>
+        
       
     
     
