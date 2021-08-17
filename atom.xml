@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-08-14T16:05:56.750Z</updated>
+  <updated>2021-08-17T14:04:19.412Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,16 +21,10 @@
     <link href="http://example.com/2021/08/14/%E5%9B%A2%E9%98%9F%E7%AE%A1%E7%90%86/"/>
     <id>http://example.com/2021/08/14/%E5%9B%A2%E9%98%9F%E7%AE%A1%E7%90%86/</id>
     <published>2021-08-14T15:22:16.000Z</published>
-    <updated>2021-08-14T16:05:56.750Z</updated>
+    <updated>2021-08-17T14:04:19.412Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;团队管理&quot;&gt;&lt;a href=&quot;#团队管理&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">&lt;h3 id=&quot;团队管理&quot;&gt;&lt;a href=&quot;#团队管理&quot; class=&quot;headerlink&quot; title=&quot;团队管理&quot;&gt;&lt;/a&gt;团队管理&lt;/h3&gt;&lt;p&gt;团队管理分为三个层面，技术、制度和文化。大到一个国家，小到个人，最终发展的结果都是这个三个层面的产物。其中技术发展的基础，制度是可持续的发展的必要条件，而文化则决定了最终可以发展到什么程度，能够走多远。&lt;/p&gt;</summary>
     
     
     
