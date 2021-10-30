@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>数据结构基本概念</title>
+    <url>/2021/08/08/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</url>
+    <content><![CDATA[<hr>
+<h2 id="数据结构基本概念"><a href="#数据结构基本概念" class="headerlink" title="数据结构基本概念"></a>数据结构基本概念</h2><h4 id="数据结构："><a href="#数据结构：" class="headerlink" title="数据结构："></a>数据结构：</h4><p>相互直接存在一种或者多种特定关系的数据组合，其分为逻辑结构和物理结构。</p>
+<h4 id="逻辑结构："><a href="#逻辑结构：" class="headerlink" title="逻辑结构："></a>逻辑结构：</h4><p>数据对象中元素的相互关系，其分为集合结构、线性结构、树形结构和图像结构。</p>
+<h4 id="物理结构"><a href="#物理结构" class="headerlink" title="物理结构"></a>物理结构</h4><p>数据的结构在计算机中的存储形式，其分为顺序存储结构和链式存储结构，其区别是在存储单元中地址是否连续。</p>
+<h4 id="数据类型："><a href="#数据类型：" class="headerlink" title="数据类型："></a>数据类型：</h4><p>是指一组性质相同的值的集合及定义在此集合上的一些操作的总称，其分为原子类型（包括整型、字符型等）和结构类型。</p>
+]]></content>
+      <categories>
+        <category>数据结构</category>
+      </categories>
+  </entry>
+  <entry>
     <title>团队管理</title>
     <url>/2021/08/14/%E5%9B%A2%E9%98%9F%E7%AE%A1%E7%90%86/</url>
     <content><![CDATA[<h3 id="团队管理"><a href="#团队管理" class="headerlink" title="团队管理"></a>团队管理</h3><p>团队管理分为三个层面，技术、制度和文化。大到一个国家，小到个人，最终发展的结果都是这个三个层面的产物。其中技术发展的基础，制度是可持续的发展的必要条件，而文化则决定了最终可以发展到什么程度，能够走多远。</p>
@@ -12,14 +25,9 @@
 ]]></content>
   </entry>
   <entry>
-    <title>数据结构基本概念</title>
-    <url>/2021/08/08/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</url>
-    <content><![CDATA[<hr>
-<h2 id="数据结构基本概念"><a href="#数据结构基本概念" class="headerlink" title="数据结构基本概念"></a>数据结构基本概念</h2><h4 id="数据结构："><a href="#数据结构：" class="headerlink" title="数据结构："></a>数据结构：</h4><p>相互直接存在一种或者多种特定关系的数据组合，其分为逻辑结构和物理结构。</p>
-<h4 id="逻辑结构："><a href="#逻辑结构：" class="headerlink" title="逻辑结构："></a>逻辑结构：</h4><p>数据对象中元素的相互关系，其分为集合结构、线性结构、树形结构和图像结构。</p>
-<h4 id="物理结构"><a href="#物理结构" class="headerlink" title="物理结构"></a>物理结构</h4><p>数据的结构在计算机中的存储形式，其分为顺序存储结构和链式存储结构，其区别是在存储单元中地址是否连续。</p>
-<h4 id="数据类型："><a href="#数据类型：" class="headerlink" title="数据类型："></a>数据类型：</h4><p>是指一组性质相同的值的集合及定义在此集合上的一些操作的总称，其分为原子类型（包括整型、字符型等）和结构类型。</p>
-]]></content>
+    <title>栈和队列</title>
+    <url>/2021/10/30/%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/</url>
+    <content><![CDATA[<h1 id="一、栈相关概念"><a href="#一、栈相关概念" class="headerlink" title="一、栈相关概念"></a>一、栈相关概念</h1><h2 id="1-栈的定义："><a href="#1-栈的定义：" class="headerlink" title="1.栈的定义："></a>1.栈的定义：</h2><h2 id="2-栈的特点："><a href="#2-栈的特点：" class="headerlink" title="2.栈的特点："></a>2.栈的特点：</h2>]]></content>
       <categories>
         <category>数据结构</category>
       </categories>
@@ -284,7 +292,16 @@ int delete_singly_link_list_elem(list L, int n)
 
         return OK;
 &#125;
-</code></pre>]]></content>
+</code></pre>
+
+<h1 id="四、循环链表和双向链表存储结构："><a href="#四、循环链表和双向链表存储结构：" class="headerlink" title="四、循环链表和双向链表存储结构："></a>四、循环链表和双向链表存储结构：</h1><ul>
+<li><strong>循环链</strong> 表较单链表多了一个指向链表首地址的指针，即尾节点指针指向头节点。如此链表的任意节点都可以直接遍历整个链表的全部节点。</li>
+<li><strong>双向链表</strong> </li>
+<li>其指针域有前驱和后继两个指针组成，前驱指向前一个节点，后继指向后一个节点。如此查找上一个节点，算法复杂度就变成了O(1)。</li>
+<li>需要特别注意的是在操作节点的时候要同时改变前驱和后继两个指针的变量。</li>
+<li>双向链表其本质是通过通过空间换取时间，提高算法性能。</li>
+</ul>
+]]></content>
       <categories>
         <category>数据结构</category>
       </categories>

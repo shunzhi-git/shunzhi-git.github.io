@@ -20,19 +20,19 @@
     var CONFIG = {"hostname":"liushunzhi.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="一、线性表相关概念1.线性表的定义：零个或多个元素的有限序列。 2. 线性表的存储结构： 顺序存储结构 链式存储结构：单链表、静态链表、双链表、循环链表。 顺序和链式存储结构不同点主要在地址是否连续，这个特点也决定了其各种操作的算法复杂度。  3. 线性表的操作 整表创建，整表删除，元素获取，元素插入，元素删除">
+  <meta name="description" content="一、栈相关概念1.栈的定义：2.栈的特点：">
 <meta property="og:type" content="article">
-<meta property="og:title" content="线性表">
-<meta property="og:url" content="https://liushunzhi.com/2021/08/31/%E7%BA%BF%E6%80%A7%E8%A1%A8/index.html">
+<meta property="og:title" content="栈和队列">
+<meta property="og:url" content="https://liushunzhi.com/2021/10/30/%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/index.html">
 <meta property="og:site_name" content="一二三四">
-<meta property="og:description" content="一、线性表相关概念1.线性表的定义：零个或多个元素的有限序列。 2. 线性表的存储结构： 顺序存储结构 链式存储结构：单链表、静态链表、双链表、循环链表。 顺序和链式存储结构不同点主要在地址是否连续，这个特点也决定了其各种操作的算法复杂度。  3. 线性表的操作 整表创建，整表删除，元素获取，元素插入，元素删除">
+<meta property="og:description" content="一、栈相关概念1.栈的定义：2.栈的特点：">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-08-31T12:23:46.000Z">
-<meta property="article:modified_time" content="2021-10-30T13:33:18.609Z">
+<meta property="article:published_time" content="2021-10-30T13:35:50.000Z">
+<meta property="article:modified_time" content="2021-10-30T13:35:50.301Z">
 <meta property="article:author" content="顺治">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://liushunzhi.com/2021/08/31/%E7%BA%BF%E6%80%A7%E8%A1%A8/">
+<link rel="canonical" href="https://liushunzhi.com/2021/10/30/%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/">
 
 
 <script id="page-configurations">
@@ -45,7 +45,7 @@
   };
 </script>
 
-  <title>线性表 | 一二三四</title>
+  <title>栈和队列 | 一二三四</title>
   
 
 
@@ -195,7 +195,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://liushunzhi.com/2021/08/31/%E7%BA%BF%E6%80%A7%E8%A1%A8/">
+    <link itemprop="mainEntityOfPage" href="https://liushunzhi.com/2021/10/30/%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -208,7 +208,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          线性表
+          栈和队列
         </h1>
 
         <div class="post-meta">
@@ -218,15 +218,8 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2021-08-31 20:23:46" itemprop="dateCreated datePublished" datetime="2021-08-31T20:23:46+08:00">2021-08-31</time>
+              <time title="创建时间：2021-10-30 21:35:50" itemprop="dateCreated datePublished" datetime="2021-10-30T21:35:50+08:00">2021-10-30</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-10-30 21:33:18" itemprop="dateModified" datetime="2021-10-30T21:33:18+08:00">2021-10-30</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -238,7 +231,7 @@
             </span>
 
           
-            <span id="/2021/08/31/%E7%BA%BF%E6%80%A7%E8%A1%A8/" class="post-meta-item leancloud_visitors" data-flag-title="线性表" title="阅读次数">
+            <span id="/2021/10/30/%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/" class="post-meta-item leancloud_visitors" data-flag-title="栈和队列" title="阅读次数">
               <span class="post-meta-item-icon">
                 <i class="fa fa-eye"></i>
               </span>
@@ -260,8 +253,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/2021/08/31/%E7%BA%BF%E6%80%A7%E8%A1%A8/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2021/08/31/%E7%BA%BF%E6%80%A7%E8%A1%A8/" itemprop="commentCount"></span>
+    <a title="valine" href="/2021/10/30/%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/10/30/%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -276,253 +269,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="一、线性表相关概念"><a href="#一、线性表相关概念" class="headerlink" title="一、线性表相关概念"></a>一、线性表相关概念</h1><h2 id="1-线性表的定义："><a href="#1-线性表的定义：" class="headerlink" title="1.线性表的定义："></a>1.线性表的定义：</h2><p>零个或多个元素的有限序列。</p>
-<h2 id="2-线性表的存储结构："><a href="#2-线性表的存储结构：" class="headerlink" title="2. 线性表的存储结构："></a>2. 线性表的存储结构：</h2><ul>
-<li>顺序存储结构</li>
-<li>链式存储结构：单链表、静态链表、双链表、循环链表。</li>
-<li>顺序和链式存储结构不同点主要在地址是否连续，这个特点也决定了其各种操作的算法复杂度。</li>
-</ul>
-<h2 id="3-线性表的操作"><a href="#3-线性表的操作" class="headerlink" title="3. 线性表的操作"></a>3. 线性表的操作</h2><ul>
-<li>整表创建，整表删除，元素获取，元素插入，元素删除<span id="more"></span></li>
-</ul>
-<h1 id="二、线性表的顺序存储结构："><a href="#二、线性表的顺序存储结构：" class="headerlink" title="二、线性表的顺序存储结构："></a>二、线性表的顺序存储结构：</h1><p>用一段连续的存储单元依次存储线性表的数据元素，数组、字符串都属于顺序存储结构。</p>
-<pre><code>
-
-/*********************************************************************
-*时间：2021/08/23 22:33
-*地点：滨成科创公寓
-*作者：liu shun zhi
-*功能：线性表顺序存储
-*
-*********************************************************************/
-
-
-/*
-*定义函数返回值
-*/
-#define OK           (0)
-#define ERROR        (-1)
-#define ELEM_MAX_NUM (10)
-
-/*
-*线性表结构体类型
-*/
-struct list
-&#123;
-        int length;
-        int data[ELEM_MAX_NUM];
-&#125;;
-
-/*
-*获取顺序结构线性表L的第i个元素。
-*/
-int get_list_elem(list L, int i, int *e)
-&#123;
-        if (L.length == 0 || i >= L.length )
-                return ERROR;
-
-        *e = L.data[i];
-        return OK;
-&#125;
-
-/*
-*插入顺序结构线性表L的第i个元素。
-*/
-int insert_list_elem(list L, int i, int e)
-&#123;
-        int k;
-
-        if (L.length == 0 || i >= L.length)
-                return ERROR;
-
-        for (int k = L.length; k > i; k--)
-        &#123;
-                L.data[k] = L.data[k-1]
-        &#125;
-
-        L.length++;
-        L.data[k] = e;
-
-        return OK;
-&#125;
-
-/*
-*删除顺序结构线性表L的第i个元素。
-*/
-int delete_list_elem(list L, int i)
-&#123;
-        int k;
-
-        if (L.length == 0 || i >= L.length)
-                return ERROR;
-
-        for (int k = i; k < L.length; k++)
-        &#123;
-                L.data[k] = L.data[k+1]
-        &#125;
-
-        L.length--;
-
-        return OK;
-&#125;
-
-/*
-*输入字符串原地逆置。
-*/
-int sort_string(char *string)
-&#123;
-        int len,i;
-        char *start = string;
-        char *end = string - 1;
-        char p;
-
-        while (start < end)
-        &#123;
-                p = *start;
-                *start = *end;
-                *end = p;
-                start++;
-                end--;
-        &#125;
-
-        return OK;
-&#125;
-
-/*
-*输入字符串逆序输出（递归实现）。
-*/
-int sort_string(char *string)
-&#123;
-        int len,i;
-
-        if(*string != '\0')
-        &#123;
-                sort_string(string++)
-                printf("%c\n", *string);
-        &#125;
-        
-        return OK;
-&#125;
-
-</code></pre>
-
-
-<h1 id="三、单链表存储结构："><a href="#三、单链表存储结构：" class="headerlink" title="三、单链表存储结构："></a>三、单链表存储结构：</h1><ul>
-<li><strong>节点</strong>（node）：其由数据域和指针域两部分组成。</li>
-<li><strong>链表</strong>：多个节点链接成一个线性表。</li>
-<li><strong>单链表</strong>：每一个节点指包含一个后继指针域的链表成为单链表。</li>
-<li><strong>头指针</strong>：链表中第一个节点存储的位置叫做头指针。</li>
-<li><strong>头节点</strong>：单链表第一个节点前附设一个节点，成为头节点，主要方便第一个节点的插入和删除，非必需要素。</li>
-</ul>
-<p>/*********************************************************************<br>*时间：2021/09/12 21:33<br>*地点：滨成科创公寓<br>*作者：liu shun zhi<br>*功能：单链表常见操作，单链表从节点1开始<br>*<br>*********************************************************************/</p>
-<pre><code>
-
-/*
-*定义函数返回值
-*/
-#define OK           (0)
-#define ERROR        (-1)
-
-/*
-*线性表结构体类型
-*/
-struct node
-&#123;
-        int          data;
-        struct node *next;
-&#125;node;
-
-typedef node *link_list_node;
-
-/*
-*获取单链表L的第n个元素。
-*/
-int get_singly_link_list_elem(link_list_node L, int n, int *e)
-&#123;
-        int i = 1
-        link_list_node p;
-
-        p = L->next;
-
-        while(p && i < n)
-        &#123;
-                p = p->next;
-                i++;
-        &#125;
-
-        if(!p)
-        &#123;
-                return ERROR;
-        &#125;
-
-        *e = p->data;
-        
-        return OK;
-&#125;
-
-/*
-*单链表L插入第n个元素。
-*/
-int insert_singly_link_list_elem(link_list_node L, int n, int e)
-&#123;
-        int i = 1;
-        link_list_node p,s;
-
-        p = L->next;
-        while (p && i < n)
-        &#123;
-                p = p->next;
-                i++;
-        &#125;
-
-        if(!p)
-        &#123;
-                return ERROR;
-        &#125;
-
-        s = malloc(sizeof(node));
-        s->next = p->next;
-        s->data = e;
-        p->netx = s;
-
-        return OK;
-&#125;
-
-/*
-*删除单链表L的第n个元素。
-*/
-int delete_singly_link_list_elem(list L, int n)
-&#123;
-        int i = 1;
-        link_list_node p,d;
-
-        p = L->next;
-        while (p && i < n)
-        &#123;
-            p = p->next;    
-        &#125;
-
-        if(!p)
-        &#123;
-                return ERROR;
-        &#125;
-
-        d = p->next;
-        p->next = d->next;
-        free(d);
-
-        return OK;
-&#125;
-</code></pre>
-
-<h1 id="四、循环链表和双向链表存储结构："><a href="#四、循环链表和双向链表存储结构：" class="headerlink" title="四、循环链表和双向链表存储结构："></a>四、循环链表和双向链表存储结构：</h1><ul>
-<li><strong>循环链</strong> 表较单链表多了一个指向链表首地址的指针，即尾节点指针指向头节点。如此链表的任意节点都可以直接遍历整个链表的全部节点。</li>
-<li><strong>双向链表</strong> </li>
-<li>其指针域有前驱和后继两个指针组成，前驱指向前一个节点，后继指向后一个节点。如此查找上一个节点，算法复杂度就变成了O(1)。</li>
-<li>需要特别注意的是在操作节点的时候要同时改变前驱和后继两个指针的变量。</li>
-<li>双向链表其本质是通过通过空间换取时间，提高算法性能。</li>
-</ul>
-
+        <h1 id="一、栈相关概念"><a href="#一、栈相关概念" class="headerlink" title="一、栈相关概念"></a>一、栈相关概念</h1><h2 id="1-栈的定义："><a href="#1-栈的定义：" class="headerlink" title="1.栈的定义："></a>1.栈的定义：</h2><h2 id="2-栈的特点："><a href="#2-栈的特点：" class="headerlink" title="2.栈的特点："></a>2.栈的特点：</h2>
     </div>
 
     
@@ -537,7 +284,7 @@ int delete_singly_link_list_elem(list L, int n)
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://liushunzhi.com/2021/08/31/%E7%BA%BF%E6%80%A7%E8%A1%A8/" title="线性表">https://liushunzhi.com/2021/08/31/线性表/</a>
+    <a href="https://liushunzhi.com/2021/10/30/%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/" title="栈和队列">https://liushunzhi.com/2021/10/30/栈和队列/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -554,13 +301,10 @@ int delete_singly_link_list_elem(list L, int n)
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2021/08/14/%E5%9B%A2%E9%98%9F%E7%AE%A1%E7%90%86/" rel="prev" title="团队管理">
-      <i class="fa fa-chevron-left"></i> 团队管理
+    <a href="/2021/08/31/%E7%BA%BF%E6%80%A7%E8%A1%A8/" rel="prev" title="线性表">
+      <i class="fa fa-chevron-left"></i> 线性表
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2021/10/30/%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/" rel="next" title="栈和队列">
-      栈和队列 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -620,7 +364,7 @@ int delete_singly_link_list_elem(list L, int n)
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5"><span class="nav-text">一、线性表相关概念</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E5%AE%9A%E4%B9%89%EF%BC%9A"><span class="nav-text">1.线性表的定义：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E5%AD%98%E5%82%A8%E7%BB%93%E6%9E%84%EF%BC%9A"><span class="nav-text">2. 线性表的存储结构：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E6%93%8D%E4%BD%9C"><span class="nav-text">3. 线性表的操作</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E9%A1%BA%E5%BA%8F%E5%AD%98%E5%82%A8%E7%BB%93%E6%9E%84%EF%BC%9A"><span class="nav-text">二、线性表的顺序存储结构：</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E5%8D%95%E9%93%BE%E8%A1%A8%E5%AD%98%E5%82%A8%E7%BB%93%E6%9E%84%EF%BC%9A"><span class="nav-text">三、单链表存储结构：</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E5%BE%AA%E7%8E%AF%E9%93%BE%E8%A1%A8%E5%92%8C%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8%E5%AD%98%E5%82%A8%E7%BB%93%E6%9E%84%EF%BC%9A"><span class="nav-text">四、循环链表和双向链表存储结构：</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E6%A0%88%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5"><span class="nav-text">一、栈相关概念</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E6%A0%88%E7%9A%84%E5%AE%9A%E4%B9%89%EF%BC%9A"><span class="nav-text">1.栈的定义：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E6%A0%88%E7%9A%84%E7%89%B9%E7%82%B9%EF%BC%9A"><span class="nav-text">2.栈的特点：</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
