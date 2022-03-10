@@ -6,7 +6,7 @@
   <link href="https://liushunzhi.com/atom.xml" rel="self"/>
   
   <link href="https://liushunzhi.com/"/>
-  <updated>2021-10-30T13:35:50.301Z</updated>
+  <updated>2022-03-10T16:28:34.939Z</updated>
   <id>https://liushunzhi.com/</id>
   
   <author>
@@ -15,6 +15,53 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>程序命名方法</title>
+    <link href="https://liushunzhi.com/2022/03/11/%E7%A8%8B%E5%BA%8F%E5%91%BD%E5%90%8D%E6%96%B9%E6%B3%95/"/>
+    <id>https://liushunzhi.com/2022/03/11/%E7%A8%8B%E5%BA%8F%E5%91%BD%E5%90%8D%E6%96%B9%E6%B3%95/</id>
+    <published>2022-03-10T16:26:50.000Z</published>
+    <updated>2022-03-10T16:28:34.939Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;程序命名方法介绍&quot;&gt;&lt;a href=&quot;#程序命名方法介绍&quot; class=&quot;headerlink&quot; title=&quot;程序命名方法介绍&quot;&gt;&lt;/a&gt;程序命名方法介绍&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;程序命名原则：函数命名, 变量命名, 文件命名要有描述性;</summary>
+        
+      
+    
+    
+    
+    <category term="编程技术" scheme="https://liushunzhi.com/categories/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>neon技术</title>
+    <link href="https://liushunzhi.com/2021/11/19/neon%E6%8A%80%E6%9C%AF/"/>
+    <id>https://liushunzhi.com/2021/11/19/neon%E6%8A%80%E6%9C%AF/</id>
+    <published>2021-11-19T13:03:04.000Z</published>
+    <updated>2021-11-19T13:07:29.376Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;##1. neon介绍&lt;/p&gt;
+&lt;p&gt;##2. neon用途和优势&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用途：加法、乘法、取整、减法、比较、绝对差、最大、最小、逻辑运算、获取lane值、设置lane值、合并、</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>栈和队列</title>

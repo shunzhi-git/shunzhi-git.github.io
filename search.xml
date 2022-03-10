@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>数据结构基本概念</title>
-    <url>/2021/08/08/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</url>
-    <content><![CDATA[<hr>
-<h2 id="数据结构基本概念"><a href="#数据结构基本概念" class="headerlink" title="数据结构基本概念"></a>数据结构基本概念</h2><h4 id="数据结构："><a href="#数据结构：" class="headerlink" title="数据结构："></a>数据结构：</h4><p>相互直接存在一种或者多种特定关系的数据组合，其分为逻辑结构和物理结构。</p>
-<h4 id="逻辑结构："><a href="#逻辑结构：" class="headerlink" title="逻辑结构："></a>逻辑结构：</h4><p>数据对象中元素的相互关系，其分为集合结构、线性结构、树形结构和图像结构。</p>
-<h4 id="物理结构"><a href="#物理结构" class="headerlink" title="物理结构"></a>物理结构</h4><p>数据的结构在计算机中的存储形式，其分为顺序存储结构和链式存储结构，其区别是在存储单元中地址是否连续。</p>
-<h4 id="数据类型："><a href="#数据类型：" class="headerlink" title="数据类型："></a>数据类型：</h4><p>是指一组性质相同的值的集合及定义在此集合上的一些操作的总称，其分为原子类型（包括整型、字符型等）和结构类型。</p>
+    <title>neon技术</title>
+    <url>/2021/11/19/neon%E6%8A%80%E6%9C%AF/</url>
+    <content><![CDATA[<p>##1. neon介绍</p>
+<p>##2. neon用途和优势</p>
+<ul>
+<li>用途：加法、乘法、取整、减法、比较、绝对差、最大、最小、逻辑运算、获取lane值、设置lane值、合并、 分离、类型转换、查表、Load、Store等运算，总共近1900条指令。</li>
+</ul>
+<p>图像处理领域：</p>
+<p>##3. 使用方法<br>编译参数：</p>
+<ul>
+<li><p>汇编</p>
+</li>
+<li><p>C语言</p>
+</li>
+<li><p>开源库</p>
+</li>
+</ul>
+<p>##4. 深入钻研</p>
 ]]></content>
-      <categories>
-        <category>数据结构</category>
-      </categories>
   </entry>
   <entry>
     <title>团队管理</title>
@@ -25,11 +33,250 @@
 ]]></content>
   </entry>
   <entry>
+    <title>数据结构基本概念</title>
+    <url>/2021/08/08/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/</url>
+    <content><![CDATA[<hr>
+<h2 id="数据结构基本概念"><a href="#数据结构基本概念" class="headerlink" title="数据结构基本概念"></a>数据结构基本概念</h2><h4 id="数据结构："><a href="#数据结构：" class="headerlink" title="数据结构："></a>数据结构：</h4><p>相互直接存在一种或者多种特定关系的数据组合，其分为逻辑结构和物理结构。</p>
+<h4 id="逻辑结构："><a href="#逻辑结构：" class="headerlink" title="逻辑结构："></a>逻辑结构：</h4><p>数据对象中元素的相互关系，其分为集合结构、线性结构、树形结构和图像结构。</p>
+<h4 id="物理结构"><a href="#物理结构" class="headerlink" title="物理结构"></a>物理结构</h4><p>数据的结构在计算机中的存储形式，其分为顺序存储结构和链式存储结构，其区别是在存储单元中地址是否连续。</p>
+<h4 id="数据类型："><a href="#数据类型：" class="headerlink" title="数据类型："></a>数据类型：</h4><p>是指一组性质相同的值的集合及定义在此集合上的一些操作的总称，其分为原子类型（包括整型、字符型等）和结构类型。</p>
+]]></content>
+      <categories>
+        <category>数据结构</category>
+      </categories>
+  </entry>
+  <entry>
     <title>栈和队列</title>
     <url>/2021/10/30/%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/</url>
     <content><![CDATA[<h1 id="一、栈相关概念"><a href="#一、栈相关概念" class="headerlink" title="一、栈相关概念"></a>一、栈相关概念</h1><h2 id="1-栈的定义："><a href="#1-栈的定义：" class="headerlink" title="1.栈的定义："></a>1.栈的定义：</h2><h2 id="2-栈的特点："><a href="#2-栈的特点：" class="headerlink" title="2.栈的特点："></a>2.栈的特点：</h2>]]></content>
       <categories>
         <category>数据结构</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>程序命名方法</title>
+    <url>/2022/03/11/%E7%A8%8B%E5%BA%8F%E5%91%BD%E5%90%8D%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h1 id="程序命名方法介绍"><a href="#程序命名方法介绍" class="headerlink" title="程序命名方法介绍"></a>程序命名方法介绍</h1><pre><code>程序命名原则：函数命名, 变量命名, 文件命名要有描述性; 少用缩写.
+</code></pre>
+<h2 id="一、驼峰命名"><a href="#一、驼峰命名" class="headerlink" title="一、驼峰命名"></a>一、驼峰命名</h2><p>驼峰命名又称为驼峰式大小写，英文是“Camel-Case”，其出自Perl语言中普遍使用的大小写混合格式，而Larry Wall等人所著的畅销书《Programming Perl》（O’Reilly出版）的封面图片正是一匹骆驼。</p>
+<p>当变量名和函数名称是由二个或多个单字链接在一起，而构成的唯一识别字时，利用“驼峰式大小写”来表示，可以增加变量和函数的可读性。</p>
+<p>驼峰命名又分为大驼峰和小驼峰两种。</p>
+<p>###1. 小驼峰</p>
+<p>第一个单字以小写字母开始；第二个单字的首字母大写，一般用于变量命名，例如：firstName、lastName。</p>
+<p>###2. 大驼峰<br>每一个单字的首字母都采用大写字母，常用于类名、函数名、属性、命名空间。例如：FirstName、LastName、CamelCase，也被称为帕斯卡命名法（英语：Pascal Case）。</p>
+<p><img src="https://img-blog.csdnimg.cn/20181213112746606.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2plcnJ5MTExMTI=,size_16,color_FFFFFF,t_70"></p>
+<ul>
+<li><p>补充说明</p>
+<p>  在JAVA中：类名的标识符一般用大驼峰式书写格式，方法和变量的标识符则多用小驼峰式书写格式。</p>
+</li>
+</ul>
+<h2 id="二、匈牙利命名"><a href="#二、匈牙利命名" class="headerlink" title="二、匈牙利命名"></a>二、匈牙利命名</h2><p>匈牙利命名法（Hungarian notation）是电脑程序设计中的一种变量命名规则，此命名法又可细分为：系统匈牙利命名法和匈牙利应用命名法。</p>
+<p>匈牙利命名法具备语言独立的特性，并且首次在BCPL语言中被大量使用。由于BCPL这种低级语言只有机器码这一种数据内容，因此这种语言本身无法帮助程序员来记住变量的类型。匈牙利命名法通过明确每个变量的资料类型来解决这个问题。</p>
+<h3 id="1-历史传承："><a href="#1-历史传承：" class="headerlink" title="1. 历史传承："></a>1. 历史传承：</h3><p>原始的匈牙利命名法，现在被称为匈牙利应用命名法，由1972年至1981年在施乐帕洛阿尔托研究中心工作的-程序员查尔斯·西蒙尼发明。此人后来成了微软的总设计师。</p>
+<p>这种命名法其实是对于西蒙尼祖籍的一种讽刺。匈牙利人名和大多数其他欧洲人名相比是反过来的，即姓氏在名字的前面。举个例子，英语化的名字“Charles Simonyi”在匈牙利语中原本是“Simonyi Károly”。同样的，在匈牙利命名法中，类型名在实际变量名前，而不是像大多数欧洲的Smalltalk那样，类型放在变量名后，例如aPoint和lastPoint。后者在西蒙尼任职于施乐帕洛阿尔托研究中心时期非常流行。这种命名法的灵感，可能是受波兰表示法的启发。</p>
+<p>匈牙利命名法的英文是Hungarian notation，这个词能让许多人记住，因为难发音的辅音字符串有点像部分东欧语言中，辅音丰富的拼写方式，尽管实际上匈牙利语是属于芬兰-乌戈尔语族，而不像斯拉夫语族那样元音丰富。举例来说，零结束字符串的前缀”sz”实际上就是匈牙利字母表中的一个合体字母（参看德语中的ß）。<br>　<br>###2.命名规则</p>
+<ul>
+<li>基本原则是：变量名=属性+类型+对象描述。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>前缀</th>
+<th>类型</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>a</td>
+<td>Array    数组</td>
+</tr>
+<tr>
+<td>g_</td>
+<td>Global    全局的</td>
+</tr>
+<tr>
+<td>h</td>
+<td>HANDLE    句柄</td>
+</tr>
+<tr>
+<td>l</td>
+<td>Long(long)    长整数</td>
+</tr>
+<tr>
+<td>lp</td>
+<td>Long point    长指针</td>
+</tr>
+<tr>
+<td>p</td>
+<td>Point    指针</td>
+</tr>
+<tr>
+<td>s</td>
+<td>String    字符串</td>
+</tr>
+<tr>
+<td>u</td>
+<td>Unsigned int    无符号整数</td>
+</tr>
+<tr>
+<td>ul</td>
+<td>Unsigned long(ULONG)    无符号长整数</td>
+</tr>
+<tr>
+<td>v</td>
+<td>Void    空</td>
+</tr>
+<tr>
+<td>bBusy</td>
+<td>布尔型 bool</td>
+</tr>
+<tr>
+<td>cApples</td>
+<td>项目计数 count</td>
+</tr>
+<tr>
+<td>dwLightYears</td>
+<td>双字（系统） doubleword</td>
+</tr>
+<tr>
+<td>fBusy</td>
+<td>布尔型或浮点型 false&amp;true或float</td>
+</tr>
+<tr>
+<td>nSize</td>
+<td>整型（系统）或计数（应用）nature</td>
+</tr>
+<tr>
+<td>iSize</td>
+<td>整型（系统）或索引（应用）int</td>
+</tr>
+<tr>
+<td>fpPrice</td>
+<td>浮点数 floatpoint</td>
+</tr>
+<tr>
+<td>dbPi</td>
+<td>双精度浮点数（系统） double</td>
+</tr>
+<tr>
+<td>pFoo</td>
+<td>指针 point</td>
+</tr>
+<tr>
+<td>rgStudents</td>
+<td>数组或范围 range</td>
+</tr>
+<tr>
+<td>szLastName</td>
+<td>零结束字符串 ß</td>
+</tr>
+<tr>
+<td>u32Identifier</td>
+<td>无符号32位整型（系统） unsigned32</td>
+</tr>
+<tr>
+<td>stTime</td>
+<td>时钟结构 struct</td>
+</tr>
+<tr>
+<td>fnFunction</td>
+<td>函数名 function</td>
+</tr>
+</tbody></table>
+<p>###3.特点</p>
+<p><strong>优点</strong></p>
+<ul>
+<li><p>不需要集成开发环境的支持，从名字中就可以看出变量的类型</p>
+</li>
+<li><p>拥有类似语义的多个变量可以在一个代码块中使用：dwWidth，iWidth，fWidth，dWidth</p>
+</li>
+<li><p>变量名在仅仅知道他们的类型时可以被轻易记住</p>
+</li>
+<li><p>可以使变量名更加一致</p>
+</li>
+<li><p>决定一个变量名的时候可以更机械化，更快</p>
+</li>
+<li><p>不合适的类型转换和操作可以在阅读代码的时候被检测出来，而不需要编译器的检测</p>
+</li>
+<li><p>在那些数字被当作字符串处理的基于字符串的语言中非常有用（例如Tcl）</p>
+</li>
+<li><p>在匈牙利应用命名法中，变量名确保不会犯以下错误：</p>
+<p>  heightWindow = window.getWidth()</p>
+</li>
+<li><p>在使用动态类型语言或完全无类型的语言编程时，关于类型的修饰可以更简化。这种语言一般不包含类型修饰（或者可选），因此唯一可以看出哪些类型是被允许的只有名字本身、文档以及通过阅读代码来明白它们在做什么。在这些语言中，包含对于变量类型的指示可能会有助于程序员。就像上面提到的，匈牙利命名法扩展了这样的语言（BCPL）。</p>
+</li>
+<li><p>在包含许多全局对象的复杂程序中（VB/Delphi Forms），拥有一个基本的前缀命名法可以简化在编辑器中查找组件的工作。按btn<Ctrl-Space>可以使编辑器弹出一个Button对象的列表。</Ctrl-Space></p>
+</li>
+</ul>
+<p><strong>缺点</strong></p>
+<ul>
+<li>匈牙利命名法在编译器做类型检查时是多余的。一个提供类型检查的语言在确定一个变量与其类型一致时，比人眼仅仅检查变量的用法与变量名一致要强大的多。</li>
+<li>一些现代的集成开发环境，如Visual Studio在需要时可以显示变量类型，并且自动标记不匹配的类型。使用这种命名法完全没有必要。</li>
+<li>向标识符添加类型标识导致标识符冗长；同时纵容相同主体名而不同类型的变量导致的歧义，开发人员无法从sWidth、nWidth、fWidth中了解这几个Width的用法区别，更好的写法可能是string input、int width、float zoomedWidth。</li>
+<li>匈牙利命名法在被用作代表多个属性的时候会造成困惑，如 a_crszkvc30LastNameCol：一个常量引用参数，保存了一个varchar（30）类型的数据库列LastName的内容，而这列又是这个表的主键的一部分。</li>
+<li>在代码更改后可能造成不一致。如果一个变量的类型改变了，不是变量名的修饰与新的类型不一致，就是变量名必须被改变。</li>
+<li>由于变量名和类型捆绑在一起，因此不利于代码的移植。一个典型的众所周之的例子就是WPARAM类型，以及在许多Windows系统函数声明中使用的wParam参数。它原本是一个16位的类型，但是在后来的操作系统中被改成了32位或64位，但仍保留原来的名字（它实际的基础类型是UINT_PTR，即一个大小足够保存一个指针的无符号整型）。</li>
+<li>大多数时候，看到一个变量就意味着知道了它的类型。但是，如果你不知道一个变量是干什么的，知道了它的类型也没什么帮助。<br>.NET Framework，微软新的软件开发平台，除了接口类型一般不适用匈牙利命名法。在.NET中，习惯在接口类型前放一个I（例如Windows Forms中的IButtonControl接口。）.NET Framework指导方针建议程序员不要用匈牙利命名法，但是没有指明不要用系统匈牙利命名法还是匈牙利应用命名法，或者是两者都不要用。但在JETBrains公司旗下C#编辑器中，匈牙利命名法却属于建议使用的命名法（.net使用C#语言开发）[3]与此对比，Java的标准库中连接口类型也不加前缀</li>
+</ul>
+<h2 id="四、下划线命名法。"><a href="#四、下划线命名法。" class="headerlink" title="四、下划线命名法。"></a>四、下划线命名法。</h2><p>下划线法是随着C语言的出现流行起来的，在UNIX/LIUNX这样的环境，以及GNU代码中使用非常普遍，Linux核心代码大量使用该种命名方法。其命名规则是“名称中的每一个逻辑断点都用一个下划线来标记”。</p>
+<p>###1. 函数的命名</p>
+<pre><code>命名 = 名词_动词
+
+函数名使用下划线分割小写字母的方式命名：   设备名_操作名();
+</code></pre>
+<p>  操作名一般采用：谓语（此时设备名作为宾语或者标明操作所属的模块）或者谓语+宾语/表语（此时设备名作为主语或者标明操作所属的模块） 等形式，如：</p>
+<pre><code>tic_init();
+adc_is_busy();
+uart_tx_char();
+</code></pre>
+<p>###2.变量的命名</p>
+<pre><code>命名 = 类型_名称
+
+  变量的命名也采用下划线分割小写字母的方式命名。命名应当准确，不引起歧义，且长度适中。
+
+如：
+int length;
+uint32 test_offset;
+
+-------------------------------------------------------------------------
+
+单字符的名字也是常用的，如i, j, k等，它们通常可用作函数内的局部变量。
+tmp常用做临时变量名。
+局部静态变量，应加s_词冠（表示static）。
+
+如：
+static int s_lastw;
+
+
+--------------------------------------------------------------------------
+全局变量（尤其是供外部访问的全局变量），应加g_词冠（表示global）。
+
+如：
+void (* g_capture_hook)(void);
+</code></pre>
+<p>###3. 常量及宏的命名</p>
+<pre><code>采用下划线分割大写字母的方式命名，一般应以设备名作为前缀，防止模块间命名的重复。
+
+如：
+#define TIMER0_MODE_RELOAD                2
+#define TIMER2_COUNT_RETRIEVE(val)        ((uint16)(65536 - (val)))
+
+
+--------------------------------------------------------------------------
+  当然，看作接口的宏可以按照函数的命名方法命名，例如：
+#define timer2_clear()                            (TF2 = 0)
+#define timer0_is_expired()                   (TF0)
+</code></pre>
+<h2 id="五、总结"><a href="#五、总结" class="headerlink" title="五、总结"></a>五、总结</h2><p>&ensp;&ensp;&ensp;&ensp;程序命名没有统一的教科书类的规范，无论哪种命名方法都是为了程序的易读和可维护性的目的，找到一种合适的命名规范即可。</p>
+<p>&ensp;&ensp;&ensp;&ensp;以上列出了常用的四种常用程序命名规则，使得软件开发者对程序命名有个整体认识，能够有所启发，从而规范自己的程序，提升码力。</p>
+<p><em><strong>参考：</strong></em></p>
+<ul>
+<li><em><a href="https://blog.csdn.net/u014296677/article/details/51504321">https://blog.csdn.net/u014296677/article/details/51504321</a></em></li>
+<li><em><a href="https://zh.wikipedia.org/wiki/%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99_(%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1)">https://zh.wikipedia.org/wiki/%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99_(%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1)</a></em></li>
+<li><em><a href="https://zh.wikipedia.org/wiki/%E5%8C%88%E7%89%99%E5%88%A9%E5%91%BD%E5%90%8D%E6%B3%95">https://zh.wikipedia.org/wiki/%E5%8C%88%E7%89%99%E5%88%A9%E5%91%BD%E5%90%8D%E6%B3%95</a></em></li>
+</ul>
+]]></content>
+      <categories>
+        <category>编程技术</category>
       </categories>
   </entry>
   <entry>
